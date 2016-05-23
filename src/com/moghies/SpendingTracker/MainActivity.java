@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import com.moghies.SpendingTracker.model.Expense;
+import com.moghies.SpendingTracker.model.ExpenseDate;
 import com.moghies.SpendingTracker.model.ExpenseType;
 
 public class MainActivity extends Activity implements View.OnClickListener {
@@ -76,7 +77,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-        Expense e = new Expense("", 0, "");
+        //on btnCreate click
+        Expense e = new Expense("", 0, "", ExpenseDate.Now());
         Intent intent = new Intent(this, EditExpenseActivity.class);
         intent.putExtra(EditExpenseActivity.EXPENSE_EXTRA, e);
         intent.putExtra(EditExpenseActivity.POSITION_EXTRA, -1);

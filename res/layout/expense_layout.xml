@@ -36,4 +36,15 @@
               android:layout_marginBottom="5dp"
     />
 
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/tvDate"
+              android:text="DATE!!"
+              android:layout_centerHorizontal="true"
+              android:layout_below="@id/tvDescription"
+              style="@android:style/TextAppearance.Material.Body1"
+              android:textStyle="italic"
+              android:layout_marginBottom="5dp"
+    />
+
 </RelativeLayout>

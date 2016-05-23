@@ -110,6 +110,7 @@ public class ExpenseListAdapter extends BaseAdapter {
         public TextView tvDescription;
         public TextView tvType;
         public TextView tvPrice;
+        public TextView tvDate;
 
         public Expense itemData;
     }
@@ -130,6 +131,7 @@ public class ExpenseListAdapter extends BaseAdapter {
             holder.tvDescription = (TextView) v.findViewById(R.id.tvDescription);
             holder.tvType = (TextView) v.findViewById(R.id.tvType);
             holder.tvPrice = (TextView) v.findViewById(R.id.tvPrice);
+            holder.tvDate = (TextView) v.findViewById(R.id.tvDate);
         }
         else {
             holder = (ViewHolder) v.getTag();
@@ -144,6 +146,8 @@ public class ExpenseListAdapter extends BaseAdapter {
             holder.tvDescription.setText(itemData.getDescription());
             holder.tvType.setText(itemData.getType().toString());
             holder.tvPrice.setText(itemData.getStrPrice());
+            holder.tvDate.setText(itemData.getDateString());
+
             holder.itemData = itemData;
         }
 

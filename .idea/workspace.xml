@@ -11,19 +11,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21c8b867-1a46-48e0-934f-462b09276e60" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_design.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpendingTracker/SpendingTracker.apk" afterPath="$PROJECT_DIR$/out/production/SpendingTracker/SpendingTracker.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpendingTracker/SpendingTracker.unaligned.apk" afterPath="$PROJECT_DIR$/out/production/SpendingTracker/SpendingTracker.unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpendingTracker/com/moghies/SpendingTracker/EditExpenseActivity.class" afterPath="$PROJECT_DIR$/out/production/SpendingTracker/com/moghies/SpendingTracker/EditExpenseActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpendingTracker/com/moghies/SpendingTracker/ExpenseListAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/out/production/SpendingTracker/com/moghies/SpendingTracker/ExpenseListAdapter$ViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpendingTracker/com/moghies/SpendingTracker/ExpenseListAdapter.class" afterPath="$PROJECT_DIR$/out/production/SpendingTracker/com/moghies/SpendingTracker/ExpenseListAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpendingTracker/com/moghies/SpendingTracker/MainActivity.class" afterPath="$PROJECT_DIR$/out/production/SpendingTracker/com/moghies/SpendingTracker/MainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpendingTracker/com/moghies/SpendingTracker/R$id.class" afterPath="$PROJECT_DIR$/out/production/SpendingTracker/com/moghies/SpendingTracker/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpendingTracker/com/moghies/SpendingTracker/R$layout.class" afterPath="$PROJECT_DIR$/out/production/SpendingTracker/com/moghies/SpendingTracker/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpendingTracker/com/moghies/SpendingTracker/R$string.class" afterPath="$PROJECT_DIR$/out/production/SpendingTracker/com/moghies/SpendingTracker/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpendingTracker/com/moghies/SpendingTracker/model/Expense.class" afterPath="$PROJECT_DIR$/out/production/SpendingTracker/com/moghies/SpendingTracker/model/Expense.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpendingTracker.iml" afterPath="$PROJECT_DIR$/SpendingTracker.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/edit_expense_layout.xml" afterPath="$PROJECT_DIR$/res/layout/edit_expense_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/expense_layout.xml" afterPath="$PROJECT_DIR$/res/layout/expense_layout.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/moghies/SpendingTracker/EditExpenseActivity.java" afterPath="$PROJECT_DIR$/src/com/moghies/SpendingTracker/EditExpenseActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/moghies/SpendingTracker/ExpenseListAdapter.java" afterPath="$PROJECT_DIR$/src/com/moghies/SpendingTracker/ExpenseListAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/moghies/SpendingTracker/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/moghies/SpendingTracker/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/moghies/SpendingTracker/model/Expense.java" afterPath="$PROJECT_DIR$/src/com/moghies/SpendingTracker/model/Expense.java" />
     </list>
     <ignored path="SpendingTracker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,19 +53,43 @@
         <entry file="file://$PROJECT_DIR$/src/com/moghies/SpendingTracker/model/Expense.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+              <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#854#855#0" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#923#924#0" expanded="true" />
-                <element signature="e#961#962#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
-                <element signature="e#1026#1027#0" expanded="true" />
-                <element signature="e#1053#1054#0" expanded="true" />
-                <element signature="e#1099#1100#0" expanded="true" />
-                <element signature="e#1164#1165#0" expanded="true" />
+                <element signature="e#1254#1255#0" expanded="true" />
+                <element signature="e#1282#1283#0" expanded="true" />
+                <element signature="e#1317#1318#0" expanded="true" />
+                <element signature="e#1351#1352#0" expanded="true" />
+                <element signature="e#1389#1390#0" expanded="true" />
+                <element signature="e#1423#1424#0" expanded="true" />
+                <element signature="e#1454#1455#0" expanded="true" />
+                <element signature="e#1481#1482#0" expanded="true" />
+                <element signature="e#1517#1518#0" expanded="true" />
+                <element signature="e#1544#1545#0" expanded="true" />
+                <element signature="e#1581#1582#0" expanded="true" />
+                <element signature="e#1619#1620#0" expanded="true" />
+                <element signature="e#1665#1666#0" expanded="true" />
+                <element signature="e#1756#1757#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExpenseDate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/moghies/SpendingTracker/model/ExpenseDate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1246#1247#0" expanded="true" />
+                <element signature="e#1274#1275#0" expanded="true" />
+                <element signature="e#1301#1302#0" expanded="true" />
+                <element signature="e#1327#1328#0" expanded="true" />
+                <element signature="e#1355#1356#0" expanded="true" />
+                <element signature="e#1382#1383#0" expanded="true" />
+                <element signature="e#1428#1429#0" expanded="true" />
+                <element signature="e#1481#1482#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/moghies/SpendingTracker/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+              <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -81,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/moghies/SpendingTracker/ExpenseListAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="90" column="31" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
+              <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#934#935#0" expanded="true" />
@@ -97,36 +125,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="expense_list_layout.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/expense_list_layout.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.418182">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2363636">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state vertical-scroll-proportion="-0.92727274">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExpenseListFrag.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="expense_layout.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/expense_layout.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.090909">
+              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExpenseListFrag.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/moghies/SpendingTracker/ExpenseListFrag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2434555">
+            <state vertical-scroll-proportion="0.0">
               <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -141,8 +169,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2363636">
-              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.2181818">
+              <caret line="79" column="56" selection-start-line="79" selection-start-column="56" selection-end-line="79" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -158,11 +186,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditExpenseActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EditExpenseActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/moghies/SpendingTracker/EditExpenseActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.2434555">
+              <caret line="86" column="56" selection-start-line="86" selection-start-column="56" selection-end-line="86" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,9 +204,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Activity" />
         <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -201,16 +229,17 @@
         <option value="$PROJECT_DIR$/src/com/moghies/SpendingTracker/model/ExpenseType.java" />
         <option value="$PROJECT_DIR$/res/layout/expense_kayout.xml" />
         <option value="$PROJECT_DIR$/res/layout/expense_list_layout.xml" />
-        <option value="$PROJECT_DIR$/res/layout/expense_layout.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/com/moghies/SpendingTracker/ExpenseListFrag.java" />
-        <option value="$PROJECT_DIR$/src/com/moghies/SpendingTracker/ExpenseListAdapter.java" />
-        <option value="$PROJECT_DIR$/res/layout/edit_expense_layout.xml" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/src/com/moghies/SpendingTracker/MainActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/moghies/SpendingTracker/EditExpenseActivity.java" />
         <option value="$PROJECT_DIR$/src/com/moghies/SpendingTracker/model/Expense.java" />
+        <option value="$PROJECT_DIR$/src/com/moghies/SpendingTracker/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/moghies/SpendingTracker/model/ExpenseDate.java" />
+        <option value="$PROJECT_DIR$/src/com/moghies/SpendingTracker/ExpenseListAdapter.java" />
+        <option value="$PROJECT_DIR$/res/layout/expense_layout.xml" />
+        <option value="$PROJECT_DIR$/res/layout/edit_expense_layout.xml" />
+        <option value="$PROJECT_DIR$/src/com/moghies/SpendingTracker/EditExpenseActivity.java" />
       </list>
     </option>
   </component>
@@ -730,26 +759,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="false" />
+            <element signature="e#259#260#0" expanded="false" />
+            <element signature="e#294#295#0" expanded="false" />
+            <element signature="e#325#326#0" expanded="false" />
+            <element signature="e#371#372#0" expanded="false" />
+            <element signature="e#402#403#0" expanded="false" />
+            <element signature="e#465#466#0" expanded="false" />
+            <element signature="e#529#530#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/expense_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9636364">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,17 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/edit_expense_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2363636">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Android/android-sdk/extras/android/support/design/libs/android-support-design.jar!/android/support/design/widget/FloatingActionButton.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33521128">
@@ -818,10 +825,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/moghies/SpendingTracker/model/Expense.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1282#1283#0" expanded="true" />
+            <element signature="e#1317#1318#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+            <element signature="e#1423#1424#0" expanded="true" />
+            <element signature="e#1454#1455#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+            <element signature="e#1544#1545#0" expanded="true" />
+            <element signature="e#1581#1582#0" expanded="true" />
+            <element signature="e#1619#1620#0" expanded="true" />
+            <element signature="e#1665#1666#0" expanded="true" />
+            <element signature="e#1756#1757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/moghies/SpendingTracker/ExpenseListFrag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-23/android/widget/DatePicker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3327616">
+          <caret line="185" column="16" selection-start-line="185" selection-start-column="16" selection-end-line="185" selection-end-column="16" />
+          <folding>
+            <element signature="e#7136#7137#0" expanded="false" />
+            <element signature="e#7197#7198#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/moghies/SpendingTracker/model/ExpenseDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+            <element signature="e#1355#1356#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/moghies/SpendingTracker/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/edit_expense_layout.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2181818">
+          <caret line="79" column="56" selection-start-line="79" selection-start-column="56" selection-end-line="79" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/expense_layout.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.090909">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.92727274">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/moghies/SpendingTracker/ExpenseListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="90" column="31" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
+          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#934#935#0" expanded="true" />
@@ -836,59 +947,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2363636">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/moghies/SpendingTracker/EditExpenseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/moghies/SpendingTracker/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/moghies/SpendingTracker/model/Expense.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-            <element signature="e#1099#1100#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/moghies/SpendingTracker/ExpenseListFrag.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2434555">
-          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <caret line="86" column="56" selection-start-line="86" selection-start-column="56" selection-end-line="86" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

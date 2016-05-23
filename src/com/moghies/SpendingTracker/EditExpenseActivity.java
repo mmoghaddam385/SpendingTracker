@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.*;
 import com.moghies.SpendingTracker.model.Expense;
+import com.moghies.SpendingTracker.model.ExpenseDate;
 
 /**
  * Created by mmogh on 5/22/2016.
@@ -23,6 +24,7 @@ public class EditExpenseActivity extends Activity implements View.OnClickListene
     private EditText txtDescription;
     private Spinner spnCategory;
     private EditText txtPrice;
+    private DatePicker dpDate;
 
     private Button btnSubmit;
     private Button btnCancel;
@@ -41,6 +43,7 @@ public class EditExpenseActivity extends Activity implements View.OnClickListene
         txtDescription = (EditText) findViewById(R.id.txtDescription);
         spnCategory = (Spinner) findViewById(R.id.spnCategory);
         txtPrice = (EditText) findViewById(R.id.txtPrice);
+        dpDate = (DatePicker) findViewById(R.id.dpDate);
 
         btnCancel = (Button) findViewById(R.id.btnCancel);
         btnSubmit = (Button) findViewById(R.id.btnSubmit);
@@ -79,6 +82,10 @@ public class EditExpenseActivity extends Activity implements View.OnClickListene
         cat = Math.max(0, cat);
 
         spnCategory.setSelection(cat);
+
+        dpDate.updateDate(expense.getDate().getYear(),
+                          expense.getDate().getMonth() - 1,
+                          expense.getDate().getDay());
     }
 
     @Override
@@ -90,7 +97,9 @@ public class EditExpenseActivity extends Activity implements View.OnClickListene
             intent.putExtra(POSITION_EXTRA, position);
             intent.putExtra(EXPENSE_EXTRA, new Expense(txtDescription.getText().toString(),
                     Double.parseDouble(txtPrice.getText().toString()),
-                    (String) spnCategory.getSelectedItem()));
+                    (String) spnCategory.getSelectedItem(),
+                    getDatePickerDate()));
+
 
 
             setResult(RESULT_SUCCESS, intent);
@@ -106,6 +115,14 @@ public class EditExpenseActivity extends Activity implements View.OnClickListene
         }
 
         finish();
+    }
+
+    private ExpenseDate getDatePickerDate() {
+        int month = dpDate.getMonth() + 1;
+        int day = dpDate.getDayOfMonth();
+        int year = dpDate.getYear();
+
+        return new ExpenseDate(month, day, year);
     }
 
 }
