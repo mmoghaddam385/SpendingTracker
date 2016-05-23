@@ -7,16 +7,20 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.Log;
+import android.view.View;
 import android.view.inputmethod.EditorInfo;
+import android.widget.Button;
 import com.moghies.SpendingTracker.model.Expense;
 import com.moghies.SpendingTracker.model.ExpenseType;
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements View.OnClickListener {
 
     private ListFragment expenseListFragment;
     private ExpenseListAdapter expenseAdapter;
 
     private SharedPreferences prefs;
+
+    private Button btnAdd;
 
     /**
      * Called when the activity is first created.
@@ -35,6 +39,9 @@ public class MainActivity extends Activity {
         this.expenseAdapter.load(prefs);
         //this.expenseAdapter.add(new Expense("Test", 12, "myType"));
 
+
+        this.btnAdd = (Button) findViewById(R.id.fab);
+        btnAdd.setOnClickListener(this);
     }
 
     @Override
@@ -67,4 +74,13 @@ public class MainActivity extends Activity {
         }
     }
 
+    @Override
+    public void onClick(View v) {
+        Expense e = new Expense("", 0, "");
+        Intent intent = new Intent(this, EditExpenseActivity.class);
+        intent.putExtra(EditExpenseActivity.EXPENSE_EXTRA, e);
+        intent.putExtra(EditExpenseActivity.POSITION_EXTRA, -1);
+
+        startActivityForResult(intent, 0);
+    }
 }

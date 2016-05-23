@@ -3,7 +3,6 @@ package com.moghies.SpendingTracker;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.util.Log;
 import android.view.View;
 import android.widget.*;
@@ -17,7 +16,7 @@ public class EditExpenseActivity extends Activity implements View.OnClickListene
     public static final String EXPENSE_EXTRA = "EXPENSE";
     public static final String POSITION_EXTRA = "POSITION";
 
-    public static final int RESULT_SUCCESS = 0;
+    public static final int RESULT_SUCCESS = 1;
     public static final int RESULT_CANCEL = -1;
     public static final int RESULT_DELETE = -2;
 
@@ -37,6 +36,7 @@ public class EditExpenseActivity extends Activity implements View.OnClickListene
         setContentView(R.layout.edit_expense_layout);
 
         final Activity activity = this;
+
 
         txtDescription = (EditText) findViewById(R.id.txtDescription);
         spnCategory = (Spinner) findViewById(R.id.spnCategory);
